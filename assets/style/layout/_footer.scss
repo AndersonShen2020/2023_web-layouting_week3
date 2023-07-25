@@ -1,0 +1,26 @@
+footer {
+  background-color: $color-primary;
+  padding-top: 48px;
+  img {
+    width: 48px;
+  }
+  address {
+    padding: 24px 0 32px 0;
+    border-bottom: 1px solid white;
+  }
+  .copyright {
+    padding: 32px 0;
+  }
+  .icon {
+    &-phone {
+      margin-right: 22px;
+      font-size: 2rem;
+      vertical-align: baseline;
+    }
+    &-mail {
+      margin-right: 20px;
+      font-size: 2rem;
+      vertical-align: text-bottom;
+    }
+  }
+}

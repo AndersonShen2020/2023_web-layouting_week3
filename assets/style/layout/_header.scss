@@ -1,0 +1,14 @@
+header {
+  padding: 16px 0;
+  background-color: $color-primary;
+  font-size: 20px;
+  img {
+    width: 80px;
+  }
+  li {
+    margin-right: 64px;
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+}
