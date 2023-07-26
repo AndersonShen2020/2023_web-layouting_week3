@@ -1,14 +1,42 @@
 header {
   padding: 16px 0;
   background-color: $color-primary;
-  font-size: 20px;
-  img {
+  h1 > a {
+    background-image: url(/assets/img/logo-white.png);
+    display: block;
     width: 80px;
+    height: 49px;
+    background-size: cover;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
   }
-  li {
-    margin-right: 64px;
-    &:last-of-type {
-      margin: 0;
+  li > a {
+    display: block;
+    padding: 12.5px 20px;
+    &[href="qa.html"] {
+      padding-right: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 0;
+    .container {
+      padding: 0;
+    }
+    h1 {
+      margin: 16px 0 16px 16px;
+    }
+    li {
+      border: 1px solid #ffffff;
+      a {
+        text-align: center;
+        &[href="qa.html"] {
+          padding: 12.5px 20px;
+        }
+      }
     }
   }
 }

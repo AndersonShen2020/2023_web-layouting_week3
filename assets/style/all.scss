@@ -6,11 +6,12 @@
 @import "./helpers/variables";
 @import "./helpers/utilities";
 
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+
 @import "./components/btn";
 @import "./components/card";
 @import "./components/image";
-
-@import "./layout/header";
-@import "./layout/footer";
 
 @import "./pages/index";
