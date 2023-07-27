@@ -165,15 +165,25 @@ a {
 
 h1 {
   font-size: 128px;
-  color: #00ffa3;
 }
 
 h2 {
   font-size: 64px;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+  }
 }
 
 h3 {
   font-size: 36px;
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 16px;
+  }
 }
 
 :root {
@@ -284,6 +294,10 @@ h3 {
   padding-right: 0;
 }
 
+.w-50 {
+  width: 50%;
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -320,6 +334,9 @@ h3 {
   }
   .my-sm-2 {
     margin: 8px 0;
+  }
+  .w-sm-50 {
+    width: 50%;
   }
 }
 .container {
@@ -617,4 +634,29 @@ footer address .icon-mail {
 }
 .image-message:hover {
   box-shadow: 0px 0px 16px 3px rgba(0, 166, 51, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.banner {
+  background-image: url("/assets/img/home-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #650300;
+  padding: 296px 0;
+}
+.banner a {
+  color: #fff;
+  font-size: 20px;
+  padding: 6px 12px;
+  background-color: #650300;
+}
+@media (max-width: 992px) {
+  .banner {
+    background-image: url("/assets/img/home-header-sm.png");
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    padding: 144px 0;
+  }
 }/*# sourceMappingURL=all.css.map */

@@ -106,6 +106,12 @@
   padding-right: 0;
 }
 
+// width
+
+.w-50 {
+  width: 50%;
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -142,5 +148,8 @@
   }
   .my-sm-2 {
     margin: 8px 0;
+  }
+  .w-sm-50 {
+    width: 50%;
   }
 }
