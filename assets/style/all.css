@@ -318,6 +318,10 @@ h3 {
   color: white !important;
 }
 
+.text-secondary {
+  color: #650300;
+}
+
 .pos-relative {
   position: relative;
 }
@@ -670,5 +674,25 @@ footer address .icon-mail {
   }
   .banner a {
     margin-top: 8px;
+  }
+}
+
+.info {
+  padding: 80px 0;
+}
+.info img {
+  width: 100px;
+}
+.info h2 {
+  margin-bottom: 16px;
+}
+.info-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 16px 0 8px 0;
+}
+@media (max-width: 767px) {
+  .info {
+    padding: 40px 0;
   }
 }/*# sourceMappingURL=all.css.map */
