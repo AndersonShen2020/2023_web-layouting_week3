@@ -278,8 +278,20 @@ h3 {
   margin-top: 16px;
 }
 
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
 .mb-28 {
   margin-bottom: 28px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
 }
 
 .mx-5 {
@@ -292,6 +304,10 @@ h3 {
 
 .pr-0 {
   padding-right: 0;
+}
+
+.py-80 {
+  padding: 80px 0;
 }
 
 .w-50 {
@@ -318,6 +334,10 @@ h3 {
   color: white !important;
 }
 
+.text-primary {
+  color: #aa0601;
+}
+
 .text-secondary {
   color: #650300;
 }
@@ -330,6 +350,21 @@ h3 {
   font-size: 64px;
 }
 
+.fs-italic {
+  font-style: italic;
+}
+
+@media (max-width: 992px) {
+  .flex-md-column {
+    flex-direction: column;
+  }
+  .align-items-md-center {
+    align-items: center;
+  }
+  .mb-md-6 {
+    margin-bottom: 24px;
+  }
+}
 @media (max-width: 767px) {
   .flex-sm-column {
     flex-direction: column;
@@ -340,6 +375,9 @@ h3 {
   .d-sm-none {
     display: none;
   }
+  .mb-sm-6 {
+    margin-bottom: 24px;
+  }
   .my-sm-2 {
     margin: 8px 0;
   }
@@ -348,6 +386,9 @@ h3 {
   }
   .fz-sm-24 {
     font-size: 24px;
+  }
+  .py-sm-40 {
+    padding: 40px 0;
   }
 }
 .container {
@@ -679,22 +720,11 @@ footer address .icon-mail {
   }
 }
 
-.info {
-  padding: 80px 0;
-}
 .info img {
   width: 100px;
-}
-.info h2 {
-  margin-bottom: 16px;
 }
 .info-subtitle {
   font-size: 24px;
   font-weight: bold;
   padding: 16px 0 8px 0;
-}
-@media (max-width: 767px) {
-  .info {
-    padding: 40px 0;
-  }
 }/*# sourceMappingURL=all.css.map */
