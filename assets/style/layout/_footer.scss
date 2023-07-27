@@ -11,16 +11,45 @@ footer {
   .copyright {
     padding: 32px 0;
   }
-  .icon {
-    &-phone {
-      margin-right: 22px;
-      font-size: 2rem;
-      vertical-align: baseline;
+  address {
+    font-size: 36px;
+    line-height: 1.5;
+    .icon {
+      &-phone {
+        margin-right: 22px;
+        font-size: 3rem;
+        vertical-align: text-bottom;
+      }
+      &-mail {
+        margin-right: 20px;
+        font-size: 3rem;
+        vertical-align: text-bottom;
+      }
     }
-    &-mail {
-      margin-right: 20px;
-      font-size: 2rem;
-      vertical-align: text-bottom;
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    padding-top: 24px;
+    img {
+      width: 24px;
+    }
+    .ic-position {
+      position: absolute;
+      top: 24px;
+      right: 10%;
+    }
+    address {
+      font-size: 16px;
+      .icon {
+        &-phone {
+          font-size: 24px;
+        }
+        &-mail {
+          font-size: 24px;
+        }
+      }
     }
   }
 }

@@ -41,14 +41,6 @@
 .gap-3 {
   gap: 24px;
 }
-@media (max-width: 767px) {
-  .flex-sm-column {
-    flex-direction: column;
-  }
-  .align-items-sm-start {
-    align-items: flex-start;
-  }
-}
 
 // margin
 
@@ -104,6 +96,10 @@
   margin: 0 20px;
 }
 
+.mr-md-4 {
+  margin-right: 16px;
+}
+
 // padding
 
 .pr-0 {
@@ -128,4 +124,23 @@
 
 .text-white {
   color: white !important;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .flex-sm-column {
+    flex-direction: column;
+  }
+  .align-items-sm-start {
+    align-items: flex-start;
+  }
+  .d-sm-none {
+    display: none;
+  }
+  .my-sm-2 {
+    margin: 8px 0;
+  }
 }

@@ -224,14 +224,6 @@ h3 {
   gap: 24px;
 }
 
-@media (max-width: 767px) {
-  .flex-sm-column {
-    flex-direction: column;
-  }
-  .align-items-sm-start {
-    align-items: flex-start;
-  }
-}
 .ml-1 {
   margin-left: 4px;
 }
@@ -284,6 +276,10 @@ h3 {
   margin: 0 20px;
 }
 
+.mr-md-4 {
+  margin-right: 16px;
+}
+
 .pr-0 {
   padding-right: 0;
 }
@@ -308,6 +304,24 @@ h3 {
   color: white !important;
 }
 
+.pos-relative {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .flex-sm-column {
+    flex-direction: column;
+  }
+  .align-items-sm-start {
+    align-items: flex-start;
+  }
+  .d-sm-none {
+    display: none;
+  }
+  .my-sm-2 {
+    margin: 8px 0;
+  }
+}
 .container {
   /* 1296 + 24 = 1320 */
   max-width: 1320px;
@@ -526,17 +540,43 @@ footer address {
 footer .copyright {
   padding: 32px 0;
 }
-footer .icon-phone {
-  margin-right: 22px;
-  font-size: 2rem;
-  vertical-align: baseline;
+footer address {
+  font-size: 36px;
+  line-height: 1.5;
 }
-footer .icon-mail {
+footer address .icon-phone {
+  margin-right: 22px;
+  font-size: 3rem;
+  vertical-align: text-bottom;
+}
+footer address .icon-mail {
   margin-right: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   vertical-align: text-bottom;
 }
 
+@media (max-width: 992px) {
+  footer {
+    padding-top: 24px;
+  }
+  footer img {
+    width: 24px;
+  }
+  footer .ic-position {
+    position: absolute;
+    top: 24px;
+    right: 10%;
+  }
+  footer address {
+    font-size: 16px;
+  }
+  footer address .icon-phone {
+    font-size: 24px;
+  }
+  footer address .icon-mail {
+    font-size: 24px;
+  }
+}
 .btn {
   color: black;
   background-color: #fff;
