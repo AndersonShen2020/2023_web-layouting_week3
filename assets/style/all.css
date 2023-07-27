@@ -590,11 +590,6 @@ footer address .icon-mail {
   footer img {
     width: 24px;
   }
-  footer .ic-position {
-    position: absolute;
-    top: 24px;
-    right: 10%;
-  }
   footer address {
     font-size: 16px;
   }
@@ -603,6 +598,13 @@ footer address .icon-mail {
   }
   footer address .icon-mail {
     font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  footer .ic-position {
+    position: absolute;
+    top: 24px;
+    right: 10%;
   }
 }
 .btn {

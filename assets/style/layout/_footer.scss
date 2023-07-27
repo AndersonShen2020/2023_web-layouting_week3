@@ -35,11 +35,6 @@ footer {
     img {
       width: 24px;
     }
-    .ic-position {
-      position: absolute;
-      top: 24px;
-      right: 10%;
-    }
     address {
       font-size: 16px;
       .icon {
@@ -50,6 +45,16 @@ footer {
           font-size: 24px;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    .ic-position {
+      position: absolute;
+      top: 24px;
+      right: 10%;
     }
   }
 }
