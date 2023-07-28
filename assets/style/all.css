@@ -310,12 +310,20 @@ h3 {
   padding: 80px 0;
 }
 
+.p-4 {
+  padding: 16px;
+}
+
 .w-50 {
   width: 50%;
 }
 
 .w-100 {
   width: 100%;
+}
+
+.h-205 {
+  height: 205px;
 }
 
 .text-align-center {
@@ -346,6 +354,14 @@ h3 {
   color: white !important;
 }
 
+.text-black {
+  color: black;
+}
+
+.text-gray {
+  color: #707070;
+}
+
 .text-primary {
   color: #aa0601;
 }
@@ -368,6 +384,10 @@ h3 {
 
 .fs-italic {
   font-style: italic;
+}
+
+.box-shadow {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
 }
 
 @media (max-width: 992px) {
