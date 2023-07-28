@@ -314,6 +314,10 @@ h3 {
   width: 50%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -324,6 +328,10 @@ h3 {
 
 .vertical-align-bottom {
   vertical-align: bottom;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .bg-black {
@@ -348,6 +356,10 @@ h3 {
 
 .pos-relative {
   position: relative;
+}
+
+.fz-48 {
+  font-size: 48px;
 }
 
 .fz-64 {
@@ -731,4 +743,11 @@ footer address .icon-mail {
   font-size: 24px;
   font-weight: bold;
   padding: 16px 0 8px 0;
+}
+
+.bg-index {
+  background-image: url("/assets/img/index-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=all.css.map */
