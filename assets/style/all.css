@@ -330,6 +330,10 @@ h3 {
   background-color: #000 !important;
 }
 
+.bg-secondary {
+  background-color: #fbf2f2;
+}
+
 .text-white {
   color: white !important;
 }
