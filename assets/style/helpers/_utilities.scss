@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.d-block {
+  display: block;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -92,6 +96,10 @@
   margin-bottom: 8px;
 }
 
+.mb-4 {
+  margin-bottom: 16px;
+}
+
 .mb-6 {
   margin-bottom: 24px;
 }
@@ -116,6 +124,10 @@
 
 .pr-0 {
   padding-right: 0;
+}
+
+.py-4 {
+  padding: 16px 0;
 }
 
 .py-80 {
@@ -188,6 +200,10 @@
   position: relative;
 }
 
+.fz-20 {
+  font-size: 20px;
+}
+
 .fz-48 {
   font-size: 48px;
 }
@@ -213,6 +229,9 @@
   }
   .mb-md-6 {
     margin-bottom: 24px;
+  }
+  .fz-md-16 {
+    font-size: 16px;
   }
 }
 

@@ -41,3 +41,45 @@
   background-size: cover;
   background-position: center;
 }
+
+input,
+textarea {
+  padding: 6px 12px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+
+input[type="checkbox"]:after {
+  content: " ";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  display: inline-block;
+  visibility: visible;
+  padding: 0px 3px;
+  border-radius: 3px;
+}
+
+input[type="checkbox"]:checked:after {
+  content: "✓";
+  background-color: $color-primary;
+  color: #fff;
+  font-size: 12px;
+}
+
+button[type="submit"] {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: $color-primary;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
