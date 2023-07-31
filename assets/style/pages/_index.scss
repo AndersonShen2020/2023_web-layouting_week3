@@ -14,7 +14,7 @@
     margin-top: 4px;
   }
   @media (max-width: 992px) {
-    background-image: url("/assets/img/home-header-sm.png");
+    background-image: url("./assets/img/home-header-sm.png");
   }
   @media (max-width: 767px) {
     padding: 144px 0;
@@ -36,7 +36,7 @@
 }
 
 .bg-index {
-  background-image: url("/assets/img/index-bg.png");
+  background-image: url("./assets/img/index-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
