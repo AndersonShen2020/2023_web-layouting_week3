@@ -613,7 +613,7 @@ header {
   background-color: #aa0601;
 }
 header h1 > a {
-  background-image: url(/assets/img/logo-white.png);
+  background-image: url("../img/logo-white.png");
   display: block;
   width: 80px;
   height: 49px;
@@ -753,7 +753,7 @@ footer address .icon-mail {
 }
 
 .banner {
-  background-image: url("/assets/img/home-header.png");
+  background-image: url("../img/home-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -770,7 +770,7 @@ footer address .icon-mail {
 }
 @media (max-width: 992px) {
   .banner {
-    background-image: url("/assets/img/home-header-sm.png");
+    background-image: url("../img/home-header-sm.png");
   }
 }
 @media (max-width: 767px) {
@@ -792,7 +792,7 @@ footer address .icon-mail {
 }
 
 .bg-index {
-  background-image: url("/assets/img/index-bg.png");
+  background-image: url("../img/index-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
