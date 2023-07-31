@@ -4,14 +4,12 @@ footer {
   img {
     width: 48px;
   }
-  address {
-    padding: 24px 0 32px 0;
-    border-bottom: 1px solid white;
-  }
   .copyright {
     padding: 32px 0;
   }
   address {
+    padding: 24px 0 32px 0;
+    border-bottom: 1px solid white;
     font-size: 36px;
     line-height: 1.5;
     .icon {
@@ -51,10 +49,17 @@ footer {
 
 @media (max-width: 767px) {
   footer {
+    padding: 0;
     .ic-position {
       position: absolute;
       top: 24px;
       right: 10%;
+    }
+    .copyright {
+      padding: 16px 0 24px 0;
+    }
+    address {
+      padding: 24px 0;
     }
   }
 }
